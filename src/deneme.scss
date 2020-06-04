@@ -1,0 +1,149 @@
+header {
+    outline: 1px solid #99cfe7!important;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+header {
+    display: block;
+}
+.header-transparrent {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9;
+    
+}
+div {
+    outline: 1px solid #036cdb!important;
+}
+.main-header {
+    z-index: 3;
+}
+.sticky-bar {
+    left: 0;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    -webkit-box-shadow: 0 10px 15px rgba(25,25,25,0.1);
+    box-shadow: 0 10px 15px rgba(25,25,25,0.1);
+    z-index: 9999;
+    -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+    animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+    -webkit-box-shadow: 0 10px 15px rgba(25,25,25,0.1);
+    background: #fff;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+a {
+    outline: 1px solid #ff62ab!important;
+}
+img {
+    outline: 1px solid #22746b!important;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.f-right {
+    float: right;
+}
+nav {
+    outline: 1px solid #0088c3!important;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+ul {
+    outline: 1px solid #d90416!important;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.main-header .main-menu ul li {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    margin: 0 5px;
+}
+li {
+    outline: 1px solid #d90416!important;
+}
+li {
+    list-style: none;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.header-sticky.sticky-bar.sticky .main-menu ul>li>a {
+    padding: 25px 16px;
+}
+.header-sticky.sticky-bar.sticky .main-menu ul>li>a::before {
+    bottom: 11px;
+}
+.main-header .main-menu ul li.active>a::before {
+    width: 100%;
+}
+.main-header .main-menu ul li>a::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 20px;
+    background: #a60dcf;
+    height: 2px;
+    width: 0;
+    transition: .3s;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}

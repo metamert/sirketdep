@@ -1,0 +1,25 @@
+
+  
+
+
+.transitions-item {
+padding: 10;
+  width: 100%;
+  color:black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+ font-size: 5vw;
+  font-weight: 800;
+  
+  will-change: transform, opacity, height;
+  white-space: nowrap;
+  cursor: pointer;
+  line-height: 80px;
+}
+@media screen and (max-width: 992px) {
+    .transitions-item{
+font-size: 13vw;
+
+    }
+  }
