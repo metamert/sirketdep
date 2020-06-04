@@ -12,7 +12,7 @@
     "classnames": "^2.2.6",
     "emailjs-com": "^2.4.1",
     "firebase": "^7.14.6",
-    "lodash-es": "4.17.11",
+    "lodash-es": "4.17.14",
     "node-sass": "^4.14.1",
 "framer-motion": "^1.11.0",
     "react": "^16.13.1",
