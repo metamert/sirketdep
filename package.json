@@ -35,6 +35,9 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "resolutions": {
+    "terser": "3.14.1"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
