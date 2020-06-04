@@ -5,7 +5,7 @@ import C from "../../components/feature/feature"
 import React from 'react'
 import Home1 from '../../components/homepagecomponent/home/home.component'
 import PricingCart from '../../components/PricingCart/pricingcart.component'
-
+import G from "../../components/galery"
 import List from "../../components/list"
  const Homepage = () => ( 
 
@@ -14,7 +14,7 @@ import List from "../../components/list"
          
        
            <C></C>
-           <List></List>
+           <G></G>
             <PricingCart/>
         </div>
 )
